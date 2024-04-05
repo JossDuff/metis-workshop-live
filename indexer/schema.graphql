@@ -1,0 +1,19 @@
+type EventsSummary {
+  id: ID!
+  hum_Transfer: [Hum_Transfer!]! @derivedFrom(field: "eventsSummary")
+  hum_TransferCount: BigInt!
+}
+
+type Hum_Transfer {
+  id: ID!
+  from: String!
+  to: String!
+  amount: BigInt!
+  eventsSummary: String!
+}
+
+# trader = "from" address on a transfer event
+type Trader {
+  id: ID! # address
+  num_transfers: BigInt!
+}

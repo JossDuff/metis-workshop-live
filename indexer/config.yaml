@@ -1,0 +1,11 @@
+name: hummus token
+networks:
+- id: 1088
+  start_block: 0
+  contracts:
+  - name: Hum
+    address:
+    - 0x4aAC94985cD83be30164DfE7e9AF7C054D7d2121
+    handler: src/EventHandlers.ts
+    events:
+    - event: Transfer(address indexed from, address indexed to, uint256 amount)
