@@ -18,7 +18,7 @@ function DataFetcher() {
           
     `;
 
-        fetch('https://indexer.bigdevenergy.link/b527a3d/v1/graphql', {
+        fetch('https://indexer.bigdevenergy.link/171c891/v1/graphql', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
