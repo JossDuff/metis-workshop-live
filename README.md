@@ -2,7 +2,7 @@
 
 Live-coded an indexer using [Envio](https://envio.dev/) on the [Metis](https://www.metis.io/) blockchain during a Metis livestream on April 5th, 2024.  The focus for this livestream was to index a smart contract and display indexed data on a frontend as simply as possible.
 
-We indexed the ERC20 token `Hum` at `0x4aAC94985cD83be30164DfE7e9AF7C054D7d2121` 
+We indexed the ERC20 token `Hum` on Metis at `0x4aAC94985cD83be30164DfE7e9AF7C054D7d2121` 
 [block explorer link](https://explorer.metis.io/token/0x4aAC94985cD83be30164DfE7e9AF7C054D7d2121)
 
 
